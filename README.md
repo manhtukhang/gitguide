@@ -2,22 +2,21 @@ Git - Hướng dẫn cơ bản
 ==
 **Lời nói đầu**
 Bài viết này là kinh nghiệm, quan điểm cá nhân của mình, nếu bạn thấy không thích có thể không cần đọc tiếp. Còn nếu bạn quan tâm và thấy có thiếu sót (chắc chắn là có vì mình không giỏi viết lách này nọ) thì hãy góp ý để mình bổ sung, hoàn thiện.    
-Sau khi đọc xong bài này bạn sẽ biết cách làm sao để đóng góp.
---
+Sau khi đọc xong bài này bạn sẽ biết cách làm sao để đóng góp.  
+
 
 # Mục lục
-<!-- MarkdownTOC -->
-- Giới thiệu
-    - Git là gì?
-    - Tại sao lại sử dụng Git?
-- Các tính năng của Git
-- Cài đặt Git
-    - Cài đặt
-    - Thiết lập cơ bản
-- Làm việc với Git
-- Các quy tắc chung
-<!-- /MarkdownTOC -->
---
+- [Giới thiệu](#giới-thiệu)
+    - [Git là gì?](#git-là-gì)
+    - [Tại sao lại sử dụng Git?](#tại-sao-lại-sử-dụng-git)
+- [Các tính năng của Git](#các-tính-năng-của-git)
+- [Cài đặt Git](#cài-đặt-git)
+    - [Cài đặt](#cài-đặt)
+    - [Thiết lập cơ bản](#thiết-lập-cơ-bản)
+- [Làm việc với Git](#làm-việc-với-git)
+- [Các quy tắc chung](#các-quy-tắc-chung)
+
+
 
 # Giới thiệu
 ## Git là gì?
@@ -50,7 +49,7 @@ Và Git ra đời để giải quyết các vấn đề trên, không những v�
 - **Làm việc nhóm hiệu quả** Git giúp mọi người trong nhóm làm tốt phần việc của họ, tránh chồng chéo  
     _Ví dụ:_ bạn làm việc chung với nhiều người trên cùng 1 dự án, cả 2 người cùng sửa 1 tập tin, nhưng mỗi người làm 1 kiểu. Git giúp mọi người không bị lệch pha so với người khác.  
 - **Thử nghiệm tính năng mà không sợ làm hỏng mọi thứ**
-    _Ví dụ:_ bạn viết xong 1 chương trình nhưng muốn thêm vào một số tính năng. Git sẽ giúp bạn chuyển sang 1 nhánh để bạn thoải mái sáng tạo, sau khi hoàn tất, bạn chỉ việc gộp vào với những thứ khác mà không sợ phá hỏng mọi thứ có sẵn
+    _Ví dụ:_ bạn viết xong 1 chương trình nhưng muốn thêm vào một số tính năng. Git sẽ giúp bạn chuyển sang 1 nhánh để bạn thoải mái sáng tạo, sau khi hoàn tất, bạn chỉ việc gộp vào với những thứ khác mà không sợ phá hỏng mọi thứ có sẵn  
 _ **Làm việc khi không có mạng Internet** nếu ai đã từng làm việc với SubVersion hay SourceForge sẽ biết.  
 Và còn nhiều hơn thế nữa các bạn có thể tham khảo thêm trên mạng
 
@@ -63,3 +62,9 @@ Và còn nhiều hơn thế nữa các bạn có thể tham khảo thêm trên m
 # Làm việc với Git
 
 # Các quy tắc chung
+- Luôn `commit` với mỗi thay đổi, tránh `commit -a`  
+- Thông điệp `commit` phải ngắn gọn (không quá 72 kí tự), rõ ràng (nói rõ thay đổi) và phải là **Tiếng Anh** (vì không phải lúc nào Tiếng Việt có dấu cũng được hiển thị đúng còn Tiếng Việt không dấu có thể gây hiểu nhầm)  
+- Tuyệt đối không được `rebase` hoặc `commit --amend` khi bạn đã đẩy nhánh đó lên kho dùng chung vì lúc đó bạn sẽ làm mọi thứ rối tung lên, ảnh hưởng đến người khác đang làm chung với bạn  
+- Luôn `pull` trước khi `push` để đảm bảo bạn không "phát minh lại bánh xe"
+- Khi muốn thêm mới hoặc thử nghiệm thứ gì, bạn nên `checkout` ra nhánh mới, sau khi mọi thứ hoàn thiện thì mới `merge`
+- Nếu bạn muốn người khác thử nghiệm giúp bạn, hãy `push` lên nhánh mới do bạn tạo ra, không phải là nhánh ổn định như *master* hoặc *release*
