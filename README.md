@@ -68,3 +68,4 @@ Và còn nhiều hơn thế nữa các bạn có thể tham khảo thêm trên m
 - Luôn `pull` trước khi `push` để đảm bảo bạn không "phát minh lại bánh xe"
 - Khi muốn thêm mới hoặc thử nghiệm thứ gì, bạn nên `checkout` ra nhánh mới, sau khi mọi thứ hoàn thiện thì mới `merge`
 - Nếu bạn muốn người khác thử nghiệm giúp bạn, hãy `push` lên nhánh mới do bạn tạo ra, không phải là nhánh ổn định như *master* hoặc *release*
+- Bạn phải đảm bảo thay đổi do mình tạo ra trên nhánh riêng có thể `auto merge` vào nhánh chính
