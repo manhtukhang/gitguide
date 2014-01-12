@@ -50,7 +50,7 @@ Và Git ra đời để giải quyết các vấn đề trên, không những v�
     _Ví dụ:_ bạn làm việc chung với nhiều người trên cùng 1 dự án, cả 2 người cùng sửa 1 tập tin, nhưng mỗi người làm 1 kiểu. Git giúp mọi người không bị lệch pha so với người khác.  
 - **Thử nghiệm tính năng mà không sợ làm hỏng mọi thứ**
     _Ví dụ:_ bạn viết xong 1 chương trình nhưng muốn thêm vào một số tính năng. Git sẽ giúp bạn chuyển sang 1 nhánh để bạn thoải mái sáng tạo, sau khi hoàn tất, bạn chỉ việc gộp vào với những thứ khác mà không sợ phá hỏng mọi thứ có sẵn  
-_ **Làm việc khi không có mạng Internet** nếu ai đã từng làm việc với SubVersion hay SourceForge sẽ biết.  
+- **Làm việc khi không có mạng Internet** nếu ai đã từng làm việc với SubVersion hay SourceForge sẽ biết.  
 Và còn nhiều hơn thế nữa các bạn có thể tham khảo thêm trên mạng
 
 # Cài đặt Git
