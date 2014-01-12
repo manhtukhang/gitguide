@@ -1,6 +1,6 @@
 Git - Hướng dẫn cơ bản
 ==
-**Lời nói đầu**
+**Lời nói đầu**    
 Bài viết này là kinh nghiệm, quan điểm cá nhân của mình, nếu bạn thấy không thích có thể không cần đọc tiếp. Còn nếu bạn quan tâm và thấy có thiếu sót (chắc chắn là có vì mình không giỏi viết lách này nọ) thì hãy góp ý để mình bổ sung, hoàn thiện.    
 Sau khi đọc xong bài này bạn sẽ biết cách làm sao để đóng góp.  
 
