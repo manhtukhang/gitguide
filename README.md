@@ -1,6 +1,6 @@
 Git - Hướng dẫn cơ bản
 ==
-**Lời nói đầu**
+**Lời nói đầu**    
 Bài viết này là kinh nghiệm, quan điểm cá nhân của mình, nếu bạn thấy không thích có thể không cần đọc tiếp. Còn nếu bạn quan tâm và thấy có thiếu sót (chắc chắn là có vì mình không giỏi viết lách này nọ) thì hãy góp ý để mình bổ sung, hoàn thiện.    
 Sau khi đọc xong bài này bạn sẽ biết cách làm sao để đóng góp.  
 
@@ -49,8 +49,9 @@ Và Git ra đời để giải quyết các vấn đề trên, không những v�
 - **Làm việc nhóm hiệu quả** Git giúp mọi người trong nhóm làm tốt phần việc của họ, tránh chồng chéo  
     _Ví dụ:_ bạn làm việc chung với nhiều người trên cùng 1 dự án, cả 2 người cùng sửa 1 tập tin, nhưng mỗi người làm 1 kiểu. Git giúp mọi người không bị lệch pha so với người khác.  
 - **Thử nghiệm tính năng mà không sợ làm hỏng mọi thứ**
-    _Ví dụ:_ bạn viết xong 1 chương trình nhưng muốn thêm vào một số tính năng. Git sẽ giúp bạn chuyển sang 1 nhánh để bạn thoải mái sáng tạo, sau khi hoàn tất, bạn chỉ việc gộp vào với những thứ khác mà không sợ phá hỏng mọi thứ có sẵn  
-- **Làm việc khi không có mạng Internet** nếu ai đã từng làm việc với SubVersion hay SourceForge sẽ biết.  
+    _Ví dụ:_ bạn viết xong 1 chương trình nhưng muốn thêm vào một số tính năng. Git sẽ giúp bạn chuyển sang 1 nhánh để bạn thoải mái sáng tạo, sau khi hoàn tất, bạn chỉ việc gộp vào với những thứ khác mà không sợ phá hỏng mọi thứ có sẵn
+- **Làm việc khi không có mạng Internet** nếu ai đã từng làm việc với SubVersion hay SourceForge sẽ biết, khi không có mạng, bạn sẽ không thể liên lạc với máy chủ đồng nghĩa với việc không thể làm được gì. Nhưng Git thì khác, trên máy bạn là một kho riêng và đầy đủ, bạn chỉ kết nối đến máy chủ khi cần chia sẻ công việc của mình.  
+
 Và còn nhiều hơn thế nữa các bạn có thể tham khảo thêm trên mạng
 
 # Cài đặt Git
